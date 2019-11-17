@@ -22,7 +22,7 @@ function buildGraphics() {
 
     const N: number = parseInt(sliderN.value);
     const K: number = parseInt(sliderK.value);
-    const phi: number =parseInt(sliderPhi.value);
+    const phi: number = parseInt(sliderPhi.value);
 
     const dsp = new DSPBuilder(N, K, phi);
     dsp.generateParameters();
